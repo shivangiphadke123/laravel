@@ -12,7 +12,7 @@
 <body>
     <div class="container" style="width: 60%;">
     <h2 class="text-center">Update User</h2>
-    <form method="POST" action="/update/{{$posts->$id}}">
+    <form method="POST" action="/update/{{$posts->id}}">
         @csrf
     <div class="mb-3">
         <label class="form-label">Enter Name</label>

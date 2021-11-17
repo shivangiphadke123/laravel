@@ -13,7 +13,7 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('add_user');
 });
 
